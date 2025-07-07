@@ -1,9 +1,10 @@
-import { itemsByViewsKey, itemsKey } from "$services/keys";
+import { itemsByViewsKey, itemsKey, itemsViewsKey } from "$services/keys";
 import { client } from "$services/redis";
 
 export const incrementView = async (itemId: string, userId: string) => {
-    return Promise.all([
-        client.hIncrBy(itemsKey(itemId), 'views', 1),
-        client.zIncrBy(itemsByViewsKey(), 1, itemId)
-    ]);
+    const inserted = await client.pfAdd(itemsViewsKey(itemId), userId);
+    if (inserted) {
+        await client.hIncrBy(itemsKey(itemId), 'views', 1);
+        await client.zIncrBy(itemsByViewsKey(), 1, itemId);
+    }
 };
