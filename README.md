@@ -1,3 +1,9 @@
+Items with Bids, Most Viewed, Most Expensive - 
+<p>
+  "July 28, 2025"
+  <img src="screenshots/ItemsWithBids.png" alt="July 28, 2025" style="width:100%;"/>
+</p>
+
 In a world with hundreds of different databases, one database rises to rule them all. 
 
 Redis is an in-memory database known for its speed and simplicity.  Originally used only for simple caching, its feature set has expanded to be one of the most versatile databases around. 
@@ -30,8 +36,4 @@ Full-time teaching assistants are standing by to help answer your questions.
 
 Access to a private live chat server is included. Live help whenever you need it!
 
-Items with Bids, Most Viewed, Most Expensive - 
-<p>
-  "July 28, 2025"
-  <img src="screenshots/ItemsWithBids.png" alt="July 28, 2025" style="width:100%;"/>
-</p>
+
