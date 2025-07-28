@@ -29,3 +29,9 @@ Every single video in the course has an attached ZIP file containing up-to-date 
 Full-time teaching assistants are standing by to help answer your questions.
 
 Access to a private live chat server is included. Live help whenever you need it!
+
+Items with Bids, Most Viewed, Most Expensive - 
+<p>
+  "July 28, 2025"
+  <img src="screenshots/ItemsWithBids.png" alt="July 28, 2025" style="width:100%;"/>
+</p>
